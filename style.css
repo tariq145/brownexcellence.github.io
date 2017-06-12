@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 200px;
+  background-color: grey;
+}
+
+div#menu-icon{
+  padding: 25px;
+  float: left;
+}
+
+div#menu-icon div {
+  height: 20px;
+  width: 130px;
+  margin: 20px;
+  background-color: white;
+  transition: 0.4s;
+}
+
+div#logo {
+  color: white;
+  font-size: 100px;
+  padding:40px 0 0 160px;
+  float: left;
+}
+
+div#logo:active {
+  color: blue;
+
+}
+
+div#menu-list {
+background-color: grey;
+color: white;
+font-size: 90px;
+}
+
+div#menu-list ul {
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+}
+div#menu-list li {
+  padding: 0 0 30px 30px;
+  background-color: grey;
+  border-bottom: 0.5px solid white;
+}
+div#menu-list li:last-of-type {
+  border: none;
+}
+
+div.content {
+  font-size: 150px;
+  background-color: grey;
+  padding: 200px;
+  margin: 100px 30px;
+  color: white;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    transform: rotate(-45deg) translate(-40px,20px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    transform: rotate(45deg) translate(-35px, -15px) ;
+}
+
+
+.swagdaddy {}
